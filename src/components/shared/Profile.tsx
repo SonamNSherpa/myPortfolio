@@ -1,5 +1,5 @@
 import React from "react";
-import buzz from "../../Images/buzz.webp";
+import profilePic from "../../Images/mypic1.jpg";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 
@@ -18,12 +18,13 @@ const Profile: React.FC = () => {
     >
       <div>
         <img
-          src={buzz}
+          src={profilePic}
           alt="Profile-Pic"
           style={{
-            width: "70px",
-            height: "70px",
-            borderRadius: "50%",
+            width: "60px",
+            height: "60px",
+            borderRadius: "70%",
+            objectFit: "cover",
           }}
         />
       </div>
