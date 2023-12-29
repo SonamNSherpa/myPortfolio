@@ -7,7 +7,7 @@ import cssIcon from "../thumbnails/css-icon.png";
 import jsIcon from "../thumbnails/js-icon.png";
 import javaIcon from "../thumbnails/java-icon.png";
 import reactIcon from "../thumbnails/react-node-icon.png";
-import { SocialMedia } from "./Contact";
+import { SocialMedia } from "../components/shared/MediaLinks";
 
 const StyledImage = styled("img")({
   width: "50px",
