@@ -4,8 +4,8 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import AboutMe from "./pages/AboutMe";
-import Projects from "./Projects/ProjectHome";
 import Profile from "./components/shared/Profile";
+import ProjectApp from "../src/Projects/ProjectApp";
 
 const App: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/AboutMe" element={<AboutMe />} />
-        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Projects" element={<ProjectApp />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
